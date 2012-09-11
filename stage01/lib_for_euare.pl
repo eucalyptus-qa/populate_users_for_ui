@@ -90,7 +90,7 @@ sub create_account{
 	### create test account
 	print "$ENV{'QA_CLC_IP'} :: euare-accountcreate -a $account\n";
 	system("ssh -o ServerAliveInterval=1 -o ServerAliveCountMax=5 -o StrictHostKeyChecking=no root\@$ENV{'QA_CLC_IP'} \"source /root/cred_depot/eucalyptus/admin/eucarc; euare-accountcreate -a $account\" ");
-	sleep(3);
+	sleep(7);
 
 	print "\n";
 	print "\n";
