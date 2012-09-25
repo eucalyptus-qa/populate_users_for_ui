@@ -28,13 +28,14 @@ if( $num_user < 1 ) {
 	exit(1);
 };
 
-print "\n";
-print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
-print "Create Default Account and User\n";
-print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
-print "\n";
+### REMOVED SINCE NO NEED TO CREATE DEFAULT USER IN THIS TEST	092412 
+#print "\n";
+#print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+#print "Create Default Account and User\n";
+#print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+#print "\n";
 
-system("perl ./create_account_and_user.pl");
+#system("perl ./create_account_and_user.pl");
 
 foreach my $line (@userlistarray){
 
