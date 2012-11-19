@@ -1,3 +1,17 @@
+populate_users_for_ui
+=====================
+
+## Desciption
+
+Populate 4 accounts and 8 users for User Console testing
+
+## Procedure
+
+1. Read the user description file in ../share directory
+2. Populate accounts, users, and passwords accordingly to the description in the file
+
+
+
 # Eucalyptus Testunit Framework
 
 Eucalyptus Testunit Framework is designed to run a list of test scripts written by Eucalyptus developers.
